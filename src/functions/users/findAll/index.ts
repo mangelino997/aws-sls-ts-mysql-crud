@@ -1,5 +1,5 @@
-import schema from './schema';
-import { handlerPath } from '@libs/handler-resolver';
+import schema from './schema'
+import { handlerPath } from '@libs/handler-resolver'
 
 export const findAll = {
   handler: `${handlerPath(__dirname)}/handler.main`,
@@ -10,10 +10,10 @@ export const findAll = {
         path: 'users/findAll',
         request: {
           schemas: {
-            'application/json': schema,
-          },
-        },
-      },
-    },
-  ],
-};
+            'application/json': schema
+          }
+        }
+      }
+    }
+  ]
+}

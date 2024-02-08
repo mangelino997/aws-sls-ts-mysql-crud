@@ -1,1 +1,1 @@
-export { findAll } from './findAll';
+export { findAll } from './findAll'
